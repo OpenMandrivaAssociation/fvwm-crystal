@@ -77,4 +77,4 @@ fi
 %{_docdir}/%{name}-%{version}
 %{_mandir}/man1/*
 %{_datadir}/%{name}
-%{_iconsdir}/fvwm-crystal.png
+#{_iconsdir}/fvwm-crystal.png
