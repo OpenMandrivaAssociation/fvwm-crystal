@@ -8,7 +8,7 @@ License:        GPLv2+
 Group:          Graphical desktop/Other
 URL:            https://fvwm-crystal.sourceforge.net/
 Source0:        https://sourceforge.net/projects/fvwm-crystal/files/%{version}/%{srcname}-%{version}.tar.gz
-Source1:        fvwm-crystal.png
+#Source1:        fvwm-crystal.png
 
 BuildArch:      noarch
 
@@ -55,7 +55,7 @@ the desktop.
 %__rm -f %{buildroot}%{_datadir}/locale/nl
 %__rm -f %{buildroot}%{_datadir}/locale/zh_CN
 
-install -D -m644 %{SOURCE1} %{buildroot}%{_iconsdir}/fvwm-crystal.png
+#install -D -m644 %{SOURCE1} %{buildroot}%{_iconsdir}/fvwm-crystal.png
 
 %find_lang %{name} --all-name
 
